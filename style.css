@@ -189,6 +189,64 @@ footer{
     }
 }
 
+@media (max-width: 450px) {
+    .p1{
+        display: block;
+        width: 98%;
+        margin: 0%;
+    }
+    .p2{
+        display: inline-block;
+        width: 98%;
+        margin: 3% 0;
+    }
+    .bt{
+        background-color: #FADA5E;
+        color: white;
+        width: 100%;
+    }
+    div .abouts{
+        margin: 1% 1%;
+        width: 98%;
+    }
+    .h{
+        font-size: 40px;
+        margin: 3% 0%;
+    }
+    #timerh{
+        font-size: 40px;
+        width: 300px;
+        text-align: center;
+        margin: 3% 9.5%;
+    }
+    div .icn{
+        margin-left: 33px;
+    }
+    #timer{
+        font-size: 44px;
+        text-align: center;
+        color: gray;
+    }
+    .countdown-timer{
+        text-align: center;
+        padding: 10% 0%;
+    }
+    .bot{
+        width: 90%;
+    }
+    .r{
+        padding: 1% 2%;
+    }
+    #head{
+        font-size: 35px;
+        margin-top: 45%;
+        margin-bottom: 30%;
+    }
+    #btn{
+        margin: 40% 0;
+    }
+}
+
 .container2 .overlay{
     position: fixed;
     top: 0px;
