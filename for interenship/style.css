@@ -1,0 +1,273 @@
+body{
+    font-family: sans-serif;
+    
+}
+
+.hero-section{
+    background-color: #9CAF88 ;
+    padding: 2% 5.5%;
+    color: white;
+}
+.hero-img{
+    width: 95%;
+    margin-left: 187.5%;
+    margin: 25% 0;
+}
+.heading{
+    text-align: center;
+    margin: 10%;
+    font-size: 64px;
+}
+.spa{
+    display: inline-block;
+    margin-right:80px;
+    padding: 10px;
+    border-style: ridge;
+    box-shadow: 8px white;
+    margin: 5% 5%;
+    border-radius: 8px;
+}
+
+
+.icon-c{
+    width:80%;
+    text-align: center;
+}
+.icon{
+    width: 90%;
+    text-align: center;
+}
+i{
+    margin-left: 25%;
+    display: inline-block;
+    align-items: center;
+}
+.botm{
+    background-color: #FADA5E;
+    color:black;
+    width: 90%;
+    font-weight: 500;
+    margin: 3% 4%;
+    border-radius: 5px;
+}
+
+.about{
+    padding-bottom: 3%;
+}
+.abouts{
+    display: inline-block;
+    border-style: dashed;
+    border: 5px 5px gray;
+    padding: 18px 32px;
+    margin: 0 29%;
+}
+li{
+    margin-bottom: 16px;
+}
+.abouth{
+    color:gray;
+    text-decoration: underline;
+    margin-top: 32px;
+}
+.about-img{
+    width: 45%; 
+    float: left;
+    margin-right: 48px;
+}
+.about-container{
+    color: gray;
+    width: 90%;
+}
+.goAhead{
+    background-color: #9CAF88;
+    color:white;
+    padding: 16px 80px;
+}
+.icn{
+    display: inline-block;
+    margin: 1% 15%;
+    width: 144px;
+}
+.ga{
+    color: black;
+    margin-left: 32px;
+}
+.h{
+    margin-top: 32px;
+}
+.countb{
+    display: block;
+}
+.countdown-timer{
+    padding: 10% 30%;
+}
+#timer{
+    font-size: 58px;
+    text-align: center;
+    color: gray;
+}
+#timerh{
+    text-decoration: none;
+    color:gray;
+    text-align: center;
+    font-size: 64px;
+}
+.des{
+    text-decoration: line-through;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+}
+.bot{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #9CAF88;
+    color: #000;
+    font-weight: 500;
+}
+.bot:hover{
+    opacity: .5;
+}
+.cto{
+    background-color: #9CAF88;
+    padding: 60px 60px;
+}
+.r{
+    border-style: dashed;
+    padding: 15px 15px;
+}
+.p1{
+    display: inline-block;
+    width: 50%;
+    margin: 2%;
+    color: white;
+    margin-left: 5%;
+    border-style: dotted;
+    padding: 2%;
+}
+.p2{
+    display: inline-block;
+    width: 35%;
+    margin: 3% 0;
+    margin-bottom: 3%;
+    color: #FADA5E;
+    text-align: center;
+    border-style: dotted;
+    padding: 2%;
+    border-color: white;
+}
+.bt{
+    background-color: #FADA5E;
+    color: white;
+    width: 100%;
+}
+.cto-heading{
+    font-weight: 500;
+    font-size: 50px;
+}
+footer{
+    text-align: center;
+    padding: 100px;
+    font-size: 35px;
+    font-weight: 500;
+    color: grey;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+@media (max-width:1001px){
+    .p1{
+        display: block;
+        margin-left: 25%;
+    }
+    .p2{
+        display: block;
+        margin-left: 25%;
+        width: 50%;
+    }
+}
+
+.container2 .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;  
+    display: none; 
+}
+
+.container2 .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: #9CAF88;
+    color: white;
+    width: 45%;
+    height: 55%;
+    z-index: 2;
+    border-radius: 50px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.container2 .close-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+input{
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: ;
+    font-weight: 600;
+}
+.hell{
+    margin: 10% 0;
+    height: 50%;
+}
+.active .overlay{
+    display: block;
+}
+
+.container2.active .content{
+    transition: all 100ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+.fad{
+    opacity: 0.3;
+}
+.head{
+    font-size: 60px;
+    font-weight: 600;
+}
+#btn{
+    border-width: 1px;
+    border-color: yellow;
+    background-color: transparent;
+    width: 80%;
+    color: #FADA5E;
+    font-size: 20px;
+    font-weight: 600;
+}
+#btn:hover{
+    background-color: #FADA5E;
+    color: white;
+    opacity: 1;
+}
